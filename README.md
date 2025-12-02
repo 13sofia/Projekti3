@@ -6,7 +6,7 @@ Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://goog
 Linkki projektin videoesittelyyn [google.com](https://google.com)
 
 ## Työn jakautuminen 
-Miten työmäärä jaettiin? Kuka teki mitä? Miten yhteistyö sujui?
+Miten työmäärä jaettiin? Kuka teki mitä? Miten yhteistyö sujui? 
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Mielestäni onnistuin...
@@ -55,9 +55,8 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 - suorita `npm install`  
 - ...
 
-## Kiitokset
-Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
+## Kiitokset 
+- Copilot auttoi meitä korjaamaan koodiamme, kun sovellus ei ensin toiminut. Copilot selitti meille myös keinoja.  
 - [Beginners guide to BEM](link-goes-here.com)  
 
 ## Lisenssi
