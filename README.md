@@ -22,7 +22,7 @@ Kurssi sekä lähiopetus ovat tuntuneet oikein hyvältä pidämme siitä, että 
 Oppimistamme tukisi vielä jos olisi vaikka jotain pienryhmiä tai tunnilla tehtäisiin yhdessä viikon tehtäviä.
 
 ## Tietoja sovelluksesta
-[Projekti3] on sovellus, jossa voit kirjoittaa jouluisen kauppalistan. Siellä on jquery efektejä ja huolliteltu UI. Se on tehty alunperin Erican kauppalista sovelluksen pohjalta ja sitä on muutettu erilaiseksi mutta rakenne on sama, tämä on vain jouluversio.
+Projekti3 on sovellus, jossa voit kirjoittaa jouluisen kauppalistan. Siellä on jquery efektejä ja huolliteltu UI. Se on tehty alunperin Erican kauppalista sovelluksen pohjalta ja sitä on muutettu erilaiseksi mutta rakenne on sama, tämä on vain jouluversio.
 
 ## Tunnetut virheet/bugit
 Kysyimme Visual Studio Coden Copilotilta, jos koodistamme löytyy virheitä: 
