@@ -1,0 +1,156 @@
+/* Jouluteemaiset värit muuttujina */
+:root {
+  --bg1: #b71c1c;         /* Tumma joulunpunainen tausta */
+  --bg2: #1b5e20;         /* Syvä havunvihreä */
+  --card: #fff8e1;        /* Kermanvaalea korttipohja */
+  --accent: #d32f2f;      /* Punainen painikeväri */
+  --accent-hover: #c62828;/* Tummempi hover-väri */
+  --muted: #8d6e63;       /* Ruskea haalistunut teksti */
+  --error: #e53935;       /* Virheväri (punainen) */
+  --text: #3e2723;        /* Suklaanruskea pääteksti */
+  --gold: #ffca28;        /* Korosteväri (kultainen) */
+}
+
+/* Yleisasetukset kaikille elementeille */
+* {
+  box-sizing: border-box;
+}
+
+/* Sivun tausta ja fontti */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2)); /* Joulugradientti */
+  margin: 0;
+  padding: 24px;
+  color: var(--text);
+}
+
+/* Keskitetty kortti */
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--card);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Otsikko */
+h1 {
+  text-align: center;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+/* Lomake */
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+/* Syötekenttä */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #c8e6c9;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fffde7;
+  color: var(--text);
+}
+
+/* Virheellinen kenttä */
+input.invalid {
+  border-color: var(--error);
+}
+
+/* Virheviesti */
+.error {
+  color: var(--error);
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Lisää-nappi */
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+/* Hover-efekti napille */
+button:hover {
+  background: var(--accent-hover);
+}
+
+/* Tuotelista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Yksi listaelementti */
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 6px;
+  border-bottom: 1px dashed #d7ccc8;
+  transition: background 0.3s ease;
+}
+
+/* Hover-efekti riville */
+li:hover {
+  background-color: rgba(255, 202, 40, 0.1); /* kultainen sävy */
+}
+
+/* Tuoteteksti */
+li .text {
+  flex: 1;
+  color: var(--text);
+}
+
+/* Ostettu tuote */
+li.completed .text {
+  text-decoration: line-through;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+/* Poista-nappi */
+.delete {
+  background: transparent;
+  border: 1px solid var(--error);
+  color: var(--error);
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Hover-efekti poista-napille */
+.delete:hover {
+  background-color: rgba(229, 57, 53, 0.1);
+}
+
+/* Laskuri */
+#counter {
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: var(--text);
+  font-size: 18px;
+}
+
+/* Kaavio */
+canvas {
+  margin-top: 24px;
+}

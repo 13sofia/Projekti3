@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🎄 Joululista</title>
+
+  <!-- 🔗 Linkitetään ulkoinen tyylitiedosto -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- 🖋 Google Fonts: Quicksand – moderni ja lämmin fontti -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- 💡 jQuery – helpottaa DOM-käsittelyä -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- ❄️ jQuery UI – visuaalisia efektejä (highlight, shake, drop) -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+  <!-- 🎬 Animate.css – valmiita CSS-animaatioita (fadeIn, bounce, pulse) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- 📊 Chart.js – kaavio ostettujen ja ostamattomien tuotteiden määrästä -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- 🎁 Sovelluksen pääkontti -->
+  <main class="container">
+    <!-- 🎅 Otsikko -->
+    <h1>🎅 Joulun ostoslista</h1>
+
+    <!-- 📝 Lomake uuden tuotteen lisäämiseen -->
+    <form id="item-form" aria-label="Lisää ostettava tuote">
+      <!-- 🧾 Syötekenttä tuotteen nimelle -->
+      <input id="item-input" type="text" placeholder="Esim. piparkakkutaikina..." required />
+      <!-- ➕ Lisää-nappi -->
+      <button type="submit">Lisää</button>
+      <!-- ⚠️ Virheviesti -->
+      <span id="error-message" class="error"></span>
+    </form>
+
+    <!-- 🔢 Laskuri ostamattomille tuotteille -->
+    <p id="counter">Ostamatta: 0</p>
+
+    <!-- 📋 Lista tuotteista -->
+    <ul id="item-list" aria-live="polite"></ul>
+
+    <!-- 📊 Kaavio (Chart.js) -->
+    <canvas id="statsChart" width="400" height="200"></canvas>
+  </main>
+
+  <!-- 🧠 Oma JavaScript-tiedosto -->
+  <script src="script.js"></script>
+</body>
+</html>
