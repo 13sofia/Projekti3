@@ -6,7 +6,9 @@ Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://goog
 Linkki projektin videoesittelyyn [google.com](https://google.com)
 
 ## Työn jakautuminen 
-Miten työmäärä jaettiin? Kuka teki mitä? Miten yhteistyö sujui? 
+Sofia loi Githubiin repositorion ja kansiot Visual Studio Codeen. Erica suunnitteli ja koodasi sovelluksen ulkoasun. 
+Yhdessä teimme videodemon, nettisivun julkaisemisen sekä sovelluksen koodausta. 
+Yhteistyö sujui luontevasti, koska teimme myös Projekti 2a yhdessä. 
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Onnistuimme jouluisen ulkoasun tekemisessä ja saimme hienoja efektejä ja donitsi diagrammin sivulle.
@@ -19,13 +21,13 @@ Antaisin itselleni pisteitä seuraavasti: 10/10 p
 Kurssi sekä lähiopetus ovat tuntuneet oikein hyvältä pidämme siitä, että on lähiopetusta ja kellonaika 12.30 on ollut hyvä. Opetusmetodit ovat olleet toimivia.
 Oppimistamme tukisi vielä jos olisi vaikka jotain pienryhmiä tai tunnilla tehtäisiin yhdessä viikon tehtäviä.
 
-
-
 ## Tietoja sovelluksesta
 [Projekti3] on sovellus, jossa voit kirjoittaa jouluisen kauppalistan. Siellä on jquery efektejä ja huolliteltu UI. Se on tehty alunperin Erican kauppalista sovelluksen pohjalta ja sitä on muutettu erilaiseksi mutta rakenne on sama, tämä on vain jouluversio.
 
 ## Tunnetut virheet/bugit
-Kerro jos tiedät sovelluksessa olevan jotain, mikä ei toimi tai toimii heikosti
+Kysyimme Visual Studio Coden Copilotilta, jos koodistamme löytyy virheitä: 
+- index.html - ei huomattavia bugeja 
+- script.js - new Chart($('#statsChart'), ...) antaa Chart.js:lle jQuery-objektin, ei oikeaa <canvas>-elementtiä eikä sen 2D-piirtokontekstia. Chart.js ei osaa käyttää jQuery-wrapperia, joten se ei löydä canvas-kontekstia ja aiheuttaa ajonaikaisen virheen. 
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
@@ -40,8 +42,10 @@ Projektissa käytettiin HTML5:ttä sovelluksen rakenteen määrittelyyn, CSS3:a 
 Sovellus avataan suoraan Netlifyssä julkaistulla linkillä, ja sen käyttö on yksinkertaista: kirjoita tuotteen nimi lomakkeen syötekenttään ja paina Lisää, jolloin tuote ilmestyy listaan. Merkitse tuote ostetuksi valitsemalla sen vieressä oleva checkbox, poista tuote painamalla Poista-nappia, seuraa ostamattomien tuotteiden määrää laskurista sekä kaaviosta, ja muista että lista tallentuu automaattisesti selaimen localStorageen, joten se säilyy myös sivun päivityksen jälkeen.
 
 ## Kiitokset 
-- Copilot auttoi meitä korjaamaan koodiamme, kun sovellus ei ensin toiminut. Copilot selitti meille myös keinoja.  
-- [Beginners guide to BEM](link-goes-here.com)  
+- Copilot (auttoi meitä korjaamaan koodiamme, kun sovellus ei ensin toiminut. Copilot myös selitti meille erilaisia keinoja toteuttaa sovellusta.) 
+- [jQuery](https://jquery.com/)
+- Tunnilla opetetut asiat 
+- Erican valmis tekemä kauppalista (Projekti1)  
 
 ## Lisenssi
 Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
