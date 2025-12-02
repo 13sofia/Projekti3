@@ -12,10 +12,10 @@ Yhteistyö sujui luontevasti, koska teimme myös Projekti 2a yhdessä.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Onnistuimme jouluisen ulkoasun tekemisessä ja saimme hienoja efektejä ja donitsi diagrammin sivulle.
-Parantamista olisi selkeän koodin kirjoittamisessa
-Sovellus olisi voinut toimia vielä paremmin ja olla selkeämpi
-Olemme oppineet käyttämään ulkoisia kirjastoja, jquery
-Antaisin itselleni pisteitä seuraavasti: 10/10 p
+Parantamista olisi selkeän koodin kirjoittamisessa.
+Sovellus olisi voinut toimia vielä paremmin ja olla selkeämpi.
+Olemme oppineet käyttämään ulkoisia kirjastoja kuten, jQuery.
+Antaisimme meille pisteitä seuraavasti: 10/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
 Kurssi sekä lähiopetus ovat tuntuneet oikein hyvältä pidämme siitä, että on lähiopetusta ja kellonaika 12.30 on ollut hyvä. Opetusmetodit ovat olleet toimivia.
