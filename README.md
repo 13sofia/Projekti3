@@ -1,4 +1,4 @@
-# Projekti3
+# Projekti 3
 Sofia Sallinen & Erica Levola 
 
 ## Verkkolinkit:
