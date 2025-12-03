@@ -30,10 +30,8 @@ Kysyimme Visual Studio Coden Copilotilta, jos koodistamme löytyy virheitä:
 - script.js - new Chart($('#statsChart'), ...) antaa Chart.js:lle jQuery-objektin, ei oikeaa <canvas>-elementtiä eikä sen 2D-piirtokontekstia. Chart.js ei osaa käyttää jQuery-wrapperia, joten se ei löydä canvas-kontekstia ja aiheuttaa ajonaikaisen virheen. 
 
 ## Kuvakaappaukset
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
+<img width="867" height="906" alt="image" src="https://github.com/user-attachments/assets/18c20c46-a9d8-4c65-b6c1-4aa1d07613de" />
 
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 
 ## Teknologiat
 Projektissa käytettiin HTML5:ttä sovelluksen rakenteen määrittelyyn, CSS3:a jouluteemaisen ulkoasun ja animaatioiden toteuttamiseen, JavaScriptiä logiikan ja interaktioiden hallintaan, jQueryä DOM-manipulaation ja tapahtumankäsittelyn yksinkertaistamiseen, jQuery UI:ta visuaalisten efektien kuten shake-, highlight- ja drop-animaatioiden lisäämiseen, Animate.css-kirjastoa valmiiden fadeIn- ja pulse-animaatioiden hyödyntämiseen, Chart.js:ää ostettujen ja ostamattomien tuotteiden määrän visualisointiin doughnut-kaaviona sekä localStoragea tietojen pysyvään tallentamiseen selaimen muistiin, jolloin käyttäjän joululista säilyy sivun uudelleenlatauksen jälkeen.
