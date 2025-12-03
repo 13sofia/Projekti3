@@ -3,7 +3,7 @@ Sofia Sallinen & Erica Levola
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [Joululista](https://joululista.netlify.app/)
-Linkki projektin videoesittelyyn [google.com](https://google.com)
+Linkki projektin videoesittelyyn [Videodemo](https://video.laurea.fi/media/Projekti3/0_r5eh3zk1)
 
 ## Työn jakautuminen 
 Sofia loi Githubiin repositorion ja kansiot Visual Studio Codeen. Erica suunnitteli ja koodasi sovelluksen ulkoasun. 
