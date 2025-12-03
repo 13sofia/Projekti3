@@ -34,6 +34,8 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta
 `![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
 
 Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+<img width="867" height="906" alt="image" src="https://github.com/user-attachments/assets/18c20c46-a9d8-4c65-b6c1-4aa1d07613de" />
+
 
 ## Teknologiat
 Projektissa käytettiin HTML5:ttä sovelluksen rakenteen määrittelyyn, CSS3:a jouluteemaisen ulkoasun ja animaatioiden toteuttamiseen, JavaScriptiä logiikan ja interaktioiden hallintaan, jQueryä DOM-manipulaation ja tapahtumankäsittelyn yksinkertaistamiseen, jQuery UI:ta visuaalisten efektien kuten shake-, highlight- ja drop-animaatioiden lisäämiseen, Animate.css-kirjastoa valmiiden fadeIn- ja pulse-animaatioiden hyödyntämiseen, Chart.js:ää ostettujen ja ostamattomien tuotteiden määrän visualisointiin doughnut-kaaviona sekä localStoragea tietojen pysyvään tallentamiseen selaimen muistiin, jolloin käyttäjän joululista säilyy sivun uudelleenlatauksen jälkeen.
