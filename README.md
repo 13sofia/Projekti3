@@ -30,10 +30,6 @@ Kysyimme Visual Studio Coden Copilotilta, jos koodistamme löytyy virheitä:
 - script.js - new Chart($('#statsChart'), ...) antaa Chart.js:lle jQuery-objektin, ei oikeaa <canvas>-elementtiä eikä sen 2D-piirtokontekstia. Chart.js ei osaa käyttää jQuery-wrapperia, joten se ei löydä canvas-kontekstia ja aiheuttaa ajonaikaisen virheen. 
 
 ## Kuvakaappaukset
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
-
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 <img width="867" height="906" alt="image" src="https://github.com/user-attachments/assets/18c20c46-a9d8-4c65-b6c1-4aa1d07613de" />
 
 
